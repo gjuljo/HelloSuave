@@ -1,4 +1,4 @@
-# HelloSuave
+# Hello Suave
 A simple Hello World example in F# using Suave.io
 This project uses Paket as dependency manager and FAKE as build automation system.
 The web application listens at 8080 and there is a simple example.http file to use with the
