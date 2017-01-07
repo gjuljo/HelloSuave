@@ -1,0 +1,14 @@
+version: '2'
+services:
+  app:
+    image: gjuljo/hellosuave:latest
+    ports:
+     - "9999:8080"
+
+  local:
+    image: gjuljo/hellosuave:latest
+    build: .
+    ports:
+     - "9999:8080"
+    volumes: 
+     - "./build:/app"

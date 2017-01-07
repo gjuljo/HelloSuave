@@ -1,0 +1,7 @@
+### Install the "REST Client" plugin on Visual Studio Code 
+
+GET http://localhost:8080
+
+###
+
+GET http://docker.local:9999
